@@ -19,6 +19,8 @@
     </div>
     <button type="button" class="btn btn-primary" id="touch" style="margin-left: 20%;">Touch Me</button>
     <h1 id="test" style="margin-left:20%;color: green" >I Love You So much..............</h1>
+    <button type="button" id="hide" style="margin-left:20%;" class="btn btn-primary">Hide Me</button>
+    <h1 id="miss" style="margin-left:20%;color: green" >I Miss You Chinni Bye take care</h1>
 </body>
 
 </html>
@@ -26,8 +28,18 @@
 <script>
     $(document).ready(function () {
         $("#test").hide();
+        $("#hide").hide();
+        $("#miss").hide();
+        $("#hide").click(function() {
+            $("#miss").show();
+            $("#test").hide();
+            $("#hide").hide();
+        });
+
         $("#touch").click(function () {
             $("#test").show();
+            $("#hide").show();
+            $("#touch").hide();
         });
     });
 </script>
