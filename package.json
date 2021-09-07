@@ -20,5 +20,9 @@
   "homepage": "https://github.com/shashol92/nodejs_example#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "pug": "^3.0.2"
   }
 }
