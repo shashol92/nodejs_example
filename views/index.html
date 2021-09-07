@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1 style="margin-left:20%;">
+            Welcome to this New World Aishwarya...
+        </h1>
+    </div>
+    <button type="button" class="btn btn-primary" id="touch" style="margin-left: 20%;">Touch Me</button>
+    <h1 id="test" style="margin-left:20%;color: green" >I Love You So much..............</h1>
+</body>
+
+</html>
+
+<script>
+    $(document).ready(function () {
+        $("#test").hide();
+        $("#touch").click(function () {
+            $("#test").show();
+        });
+    });
+</script>
